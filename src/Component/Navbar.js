@@ -18,7 +18,7 @@ function Navbar() {
   }, [value]);
 	return (
 		<header>
-			<h3>LOGO</h3>
+			<h3>Devserv</h3>
 			<nav ref={navRef}>
 				<h3 onClick={() => {setValue(0); showNavbar()}}>Home</h3>
 				<h3 onClick={() => {setValue(1); showNavbar()}}>Contact</h3>
