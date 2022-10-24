@@ -21,7 +21,7 @@ function Navbar() {
 			<h3>Devserv</h3>
 			<nav ref={navRef}>
 				<h3 onClick={() => {setValue(0); showNavbar()}}>Home</h3>
-				<h3 onClick={() => {setValue(1); showNavbar()}}>Contact</h3>
+				<h3 onClick={() => {setValue(1); showNavbar()}}>Services</h3>
 				<h3>Test1</h3>
 				<h3>Test2</h3>
 				<button

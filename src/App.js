@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from "./Component/Navbar";
 import Home from './Component/Pages/Home/Home.jsx';
-import Contact from './Component/Pages/Contact/Contact.jsx';
+import Service from './Component/Pages/Services/Services.jsx';
 function App() {
 	return (
     <BrowserRouter>
@@ -11,7 +11,7 @@ function App() {
 		</React.Fragment>
       <Routes >
         <Route path="/" element={<Home/>} exact/>
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/contact" element={<Service/>}/>
       </Routes>
     </BrowserRouter>
 	);
