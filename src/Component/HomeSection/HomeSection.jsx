@@ -3,8 +3,9 @@ import React from 'react'
 import {HomeSec,Button,Container, HomeRow, HomeColumn,WrapLay, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Video} from './HomeSection.elements'
 import {Link} from 'react-router-dom'
 import video from '../../Images/Dev.mp4'
+import animation from '../../Images/Dev.gif'
 import ReactPlayer from 'react-player'
-const url='../../Images/intro.mp4';
+
 const HomeSection=({ primary,
   lightBg,
   topLine,
@@ -36,14 +37,15 @@ const HomeSection=({ primary,
                   </HomeColumn>
                   <HomeColumn>
                   <ImgWrapper start={start}>
-                      
+{/*                       
                       <ReactPlayer 
                         url={video}
                         playing
                         muted
                         
                         loop
-                       />
+                       /> */}
+                       <img src={animation} alt="loading" />
                   </ImgWrapper>
                   </HomeColumn>
               </HomeRow>

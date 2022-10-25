@@ -58,6 +58,7 @@ export const WrapLay =styled.div`
   export const ImgWrapper = styled.div`
     max-width: 555px;
     display: flex;
+    
     justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
   `;
   
@@ -70,14 +71,6 @@ export const WrapLay =styled.div`
     margin-bottom: 16px;
   `;
   
-  export const Video = styled.video`
-    padding-right: 0;
-    border: 0;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    max-height: 500px;
-  `;
   export const Container = styled.div`
   position:absolute;
   z-index: 1;
@@ -85,9 +78,9 @@ export const WrapLay =styled.div`
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding:20px 50px;
+  padding:20px 20px 20px 150px;
   @media screen and (max-width: 991px) {
-   padding:0px 30px;
+   padding:20px 30px;
   }
 `;
   
