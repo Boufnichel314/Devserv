@@ -6,6 +6,7 @@ import video from '../../Images/Dev.mp4'
 import animation from '../../Images/Dev.gif'
 import ReactPlayer from 'react-player'
 
+
 const HomeSection=({ primary,
   lightBg,
   topLine,
@@ -51,7 +52,7 @@ const HomeSection=({ primary,
               </HomeRow>
           </Container>
              <WrapLay>
-             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="0.8" d="M0,128L48,133.3C96,139,192,149,288,144C384,139,480,117,576,96C672,75,768,53,864,53.3C960,53,1056,75,1152,112C1248,149,1344,203,1392,229.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,234.7C384,245,480,235,576,213.3C672,192,768,160,864,138.7C960,117,1056,107,1152,106.7C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
             </WrapLay>
       </HomeSec>
       
