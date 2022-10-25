@@ -2,7 +2,7 @@ import React from 'react'
 
 import {HomeSec,Button,Container, HomeRow, HomeColumn,WrapLay, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Video} from './HomeSection.elements'
 import {Link} from 'react-router-dom'
-import video from '../../Images/Comp1.mp4'
+import video from '../../Images/Dev.mp4'
 import ReactPlayer from 'react-player'
 const url='../../Images/intro.mp4';
 const HomeSection=({ primary,
