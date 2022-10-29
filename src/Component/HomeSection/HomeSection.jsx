@@ -38,15 +38,15 @@ const HomeSection=({ primary,
                   </HomeColumn>
                   <HomeColumn>
                   <ImgWrapper start={start}>
-{/*                       
+                      
                       <ReactPlayer 
                         url={video}
                         playing
                         muted
                         
                         loop
-                       /> */}
-                       <img src={animation} alt="loading" />
+                       /> 
+                       
                   </ImgWrapper>
                   </HomeColumn>
               </HomeRow>
