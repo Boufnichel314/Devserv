@@ -70,10 +70,13 @@ export const WrapLay =styled.div`
     letter-spacing: 1.4px;
     margin-bottom: 16px;
   `;
+  export const Video =styled.video`
+  height:40vw;
+  width:40vw;`
   
   export const Container = styled.div`
   position:absolute;
-  z-index: 1;
+ 
   width: 100%;
   max-width: 1300px;
   margin-right: auto;

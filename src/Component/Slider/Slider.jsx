@@ -21,7 +21,7 @@ export default function Slider() {
     {
         id:2,
         image:image2,
-        title:"Création de 3site boutique 3en ligne",
+        title:"Création de 2site boutique 2en ligne",
         description:"Notre agence met le design et l’ergonomie au service des objectifs à atteindre: charte graphique et ergonomie de votre site amélioreront sa clarté et son efficacité"
     },
     {
@@ -42,6 +42,10 @@ export default function Slider() {
      <Swiper  className="mySwiper" 
      modules={[Autoplay,EffectFade]}
      effect="fade"
+     
+     fadeEffect={{
+      crossFade: true
+    }}
      autoplay={{ delay: 4000 }}
      navigation>
         {SlideData.map((s)=><SwiperSlide><Slide key={s.id} image={s.image} description={s.description} title={s.title}></Slide></SwiperSlide>)}
