@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Devserv/static/css/main.ab1afd35.css",
-    "main.js": "/Devserv/static/js/main.62f9750f.js",
+    "main.css": "/Devserv/static/css/main.128d9d2a.css",
+    "main.js": "/Devserv/static/js/main.5bc84135.js",
+    "static/media/D.mov": "/Devserv/static/media/D.746c85608c08d49abb96.mov",
     "static/media/Slide3.jpg": "/Devserv/static/media/Slide3.c03ed0e651142db65a55.jpg",
     "static/media/Slide4.jpg": "/Devserv/static/media/Slide4.a2ad851e08bf3d191bd8.jpg",
     "static/media/Slide2.jpg": "/Devserv/static/media/Slide2.c9caca75b0a986bfe7bc.jpg",
-    "static/media/Dev.gif": "/Devserv/static/media/Dev.85ffdf93c36ccb705d70.gif",
     "static/media/Slide1.jpg": "/Devserv/static/media/Slide1.9def9261118e4cb56cc6.jpg",
     "static/media/test1.jpg": "/Devserv/static/media/test1.5afa554b7bea1426d96a.jpg",
     "static/media/Dev.mp4": "/Devserv/static/media/Dev.2dca24396a3969c39be1.mp4",
     "index.html": "/Devserv/index.html",
-    "main.ab1afd35.css.map": "/Devserv/static/css/main.ab1afd35.css.map",
-    "main.62f9750f.js.map": "/Devserv/static/js/main.62f9750f.js.map"
+    "main.128d9d2a.css.map": "/Devserv/static/css/main.128d9d2a.css.map",
+    "main.5bc84135.js.map": "/Devserv/static/js/main.5bc84135.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab1afd35.css",
-    "static/js/main.62f9750f.js"
+    "static/css/main.128d9d2a.css",
+    "static/js/main.5bc84135.js"
   ]
 }
