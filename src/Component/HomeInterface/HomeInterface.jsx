@@ -3,11 +3,18 @@ import './HomeInterface.css';
 
 import {motion} from 'framer-motion';
 import Typewriter from 'typewriter-effect'
-import { useState } from 'react';
+import { useState,useRef } from 'react';
+
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 function HomeInterface() {
-  const [serv,SetServ]=useState(0);
-  const Service=["Creation site web","Creation Application mobile","Marketing Digital","Design & Publicité"];
+  const myRef = useRef(null)
+  const executeScroll = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
+    
+  } 
   
   return (
     <>
@@ -37,10 +44,11 @@ function HomeInterface() {
         style={{zIndex:2}}
         initial={{y:0,scale:1}}
         animate={{y:10,scale:1.1}}
-        transition={{type:'spring',stiffness:50,repeat:Infinity}}>
+        transition={{type:'spring',stiffness:50,repeat:Infinity}}
+        onClick={executeScroll}>
 
         
-          <KeyboardDoubleArrowDownIcon style = {{fill:"#ffffff",fontSize:"3rem",marginTop:"100px",zIndex:2}}/>
+          <KeyboardDoubleArrowDownIcon  style = {{fill:"#ffffff",fontSize:"3rem",marginTop:"100px",zIndex:2,cursor:'pointer'}}/>
         </motion.div>
         
         </div>
