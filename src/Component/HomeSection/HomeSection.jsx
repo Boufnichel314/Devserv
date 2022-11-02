@@ -2,7 +2,7 @@ import React from 'react'
 
 import {HomeSec,Button,Container, HomeRow, HomeColumn,WrapLay, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Video} from './HomeSection.elements'
 import {Link} from 'react-router-dom'
-import video from '../../Images/Dev.mp4'
+
 
 
 import ReactPlayer from 'react-player'
@@ -39,9 +39,7 @@ const HomeSection=({ primary,
                   </HomeColumn>
                   <HomeColumn>
                   <ImgWrapper start={start}>
-                  <Video autoPlay loop muted>
-                    <source src={video} type="video/mp4" />
-                </Video>
+                  
                        
                   </ImgWrapper>
                   </HomeColumn>
